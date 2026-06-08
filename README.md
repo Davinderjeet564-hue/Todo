@@ -16,5 +16,5 @@ A simple React-based Todo List application for managing tasks.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <https://github.dev/Davinderjeet564-hue/Todo/blob/main>
+   git clone <https://github.com/Davinderjeet564-hue/Todo>
 
