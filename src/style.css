@@ -1,0 +1,99 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.heading {
+    margin: 7rem 0 3rem 0;
+    font-weight: bold;
+}
+
+.todo-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.input-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.input-container input{
+    padding: 0.75rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.add-todo-button {
+    padding: 0.75rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(194, 218, 239);
+    transition: background-color 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-todo-button:hover {
+    background-color: lightblue;
+    scale: 1.05;
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5);
+}
+
+.todo-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.todo-list-container li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.todo-change-button {
+    padding: 0.75rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    transition: background-color 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+}
+
+.todo-change-button:hover {
+    background-color: lightgreen;
+    scale: 1.05;
+    box-shadow: 0 0 10px rgba(144, 238, 144, 0.5);
+}
+
+.todo-delete-button {
+    padding: 0.75rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+}
+
+.todo-delete-button:hover {
+    background-color: lightcoral;
+    scale: 1.05;
+    box-shadow: 0 0 10px rgba(255, 99, 71, 0.5);
+}
